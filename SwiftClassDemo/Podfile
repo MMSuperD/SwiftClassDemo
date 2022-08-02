@@ -1,4 +1,7 @@
 # Uncomment the next line to define a global platform for your project
+source 'git@github.com:MMSuperD/FANSpec.git'
+source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '13.0'
 
@@ -7,6 +10,11 @@ target 'SwiftClassDemo' do
   use_frameworks!
 
   # Pods for SwiftClassDemo
+  pod 'FANBaseConfig'
+#  pod 'FANBaseConfig',:path => '/Users/fan/Desktop/MyStudy/MyGithub/FANBaseConfig'
   
+  pod 'JXSegmentedView'
+  
+  pod 'Alamofire'
 
 end

@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3116F51228992125005E43D3 /* FAN_HomeSuspensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3116F51128992125005E43D3 /* FAN_HomeSuspensionView.swift */; };
+		31278E7C2892842600BAC95F /* FAN_SudokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E7B2892842600BAC95F /* FAN_SudokuViewController.swift */; };
+		31278E7F2892845D00BAC95F /* FAN_SudokuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E7E2892845D00BAC95F /* FAN_SudokuView.swift */; };
+		31278E812893CB7100BAC95F /* FAN_HomeFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E802893CB7100BAC95F /* FAN_HomeFirstCell.swift */; };
+		31278E862893E04500BAC95F /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E852893E04500BAC95F /* HomeProtocol.swift */; };
+		31278E882895F42800BAC95F /* FAN_HomeBackColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E872895F42800BAC95F /* FAN_HomeBackColorView.swift */; };
+		31278E8A2895F80400BAC95F /* FAN_HomeNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E892895F80400BAC95F /* FAN_HomeNavView.swift */; };
+		31278E8C2897646A00BAC95F /* FAN_HomeSecoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E8B2897646900BAC95F /* FAN_HomeSecoundCell.swift */; };
+		31278E8E2897B7A000BAC95F /* FAN_HomeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E8D2897B7A000BAC95F /* FAN_HomeThirdCell.swift */; };
+		31278E902897C14700BAC95F /* FAN_HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E8F2897C14700BAC95F /* FAN_HomeListViewController.swift */; };
+		31278E952897D22800BAC95F /* FAN_ScollViewDelegateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E942897D22800BAC95F /* FAN_ScollViewDelegateTools.swift */; };
 		31DB8651288F789E00E10C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8650288F789E00E10C45 /* AppDelegate.swift */; };
 		31DB8653288F789E00E10C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8652288F789E00E10C45 /* SceneDelegate.swift */; };
 		31DB8655288F789E00E10C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8654288F789E00E10C45 /* ViewController.swift */; };
 		31DB8658288F789E00E10C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DB8656288F789E00E10C45 /* Main.storyboard */; };
 		31DB865A288F78A000E10C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DB8659288F78A000E10C45 /* Assets.xcassets */; };
 		31DB865D288F78A000E10C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DB865B288F78A000E10C45 /* LaunchScreen.storyboard */; };
+		31DB8672288F8AC800E10C45 /* FAN_ProjectTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8671288F8AC800E10C45 /* FAN_ProjectTabBarController.swift */; };
+		31DB8674288F95FC00E10C45 /* FAN_CommenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8673288F95FC00E10C45 /* FAN_CommenHeader.swift */; };
+		31DB8676288F977600E10C45 /* FAN_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8675288F977600E10C45 /* FAN_HomeViewController.swift */; };
+		678467B2D9AB64D832A2A5A5 /* Pods_SwiftClassDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60701DBDEBE90799C06A569D /* Pods_SwiftClassDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18154EE3F4149BA71E31ABCC /* Pods-SwiftClassDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftClassDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftClassDemo/Pods-SwiftClassDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3116F51128992125005E43D3 /* FAN_HomeSuspensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeSuspensionView.swift; sourceTree = "<group>"; };
+		31278E7B2892842600BAC95F /* FAN_SudokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_SudokuViewController.swift; sourceTree = "<group>"; };
+		31278E7E2892845D00BAC95F /* FAN_SudokuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_SudokuView.swift; sourceTree = "<group>"; };
+		31278E802893CB7100BAC95F /* FAN_HomeFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeFirstCell.swift; sourceTree = "<group>"; };
+		31278E852893E04500BAC95F /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		31278E872895F42800BAC95F /* FAN_HomeBackColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeBackColorView.swift; sourceTree = "<group>"; };
+		31278E892895F80400BAC95F /* FAN_HomeNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeNavView.swift; sourceTree = "<group>"; };
+		31278E8B2897646900BAC95F /* FAN_HomeSecoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeSecoundCell.swift; sourceTree = "<group>"; };
+		31278E8D2897B7A000BAC95F /* FAN_HomeThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeThirdCell.swift; sourceTree = "<group>"; };
+		31278E8F2897C14700BAC95F /* FAN_HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeListViewController.swift; sourceTree = "<group>"; };
+		31278E942897D22800BAC95F /* FAN_ScollViewDelegateTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_ScollViewDelegateTools.swift; sourceTree = "<group>"; };
 		31DB864D288F789E00E10C45 /* SwiftClassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftClassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DB8650288F789E00E10C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31DB8652288F789E00E10C45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,11 @@
 		31DB8659288F78A000E10C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31DB865C288F78A000E10C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31DB865E288F78A000E10C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DB8671288F8AC800E10C45 /* FAN_ProjectTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_ProjectTabBarController.swift; sourceTree = "<group>"; };
+		31DB8673288F95FC00E10C45 /* FAN_CommenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_CommenHeader.swift; sourceTree = "<group>"; };
+		31DB8675288F977600E10C45 /* FAN_HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeViewController.swift; sourceTree = "<group>"; };
+		60701DBDEBE90799C06A569D /* Pods_SwiftClassDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftClassDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACEAB1514699FD6082753F4 /* Pods-SwiftClassDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftClassDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftClassDemo/Pods-SwiftClassDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678467B2D9AB64D832A2A5A5 /* Pods_SwiftClassDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0245B29EAD4CD8A59175A7F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60701DBDEBE90799C06A569D /* Pods_SwiftClassDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31278E79289283D400BAC95F /* Sudoku */ = {
+			isa = PBXGroup;
+			children = (
+				31278E7D2892844000BAC95F /* View */,
+				31278E7A289283F900BAC95F /* Controller */,
+			);
+			path = Sudoku;
+			sourceTree = "<group>";
+		};
+		31278E7A289283F900BAC95F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31278E7B2892842600BAC95F /* FAN_SudokuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31278E7D2892844000BAC95F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31278E7E2892845D00BAC95F /* FAN_SudokuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31278E842893DFF600BAC95F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				31278E852893E04500BAC95F /* HomeProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		31278E932897D1D000BAC95F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				31278E942897D22800BAC95F /* FAN_ScollViewDelegateTools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		31DB8644288F789E00E10C45 = {
 			isa = PBXGroup;
 			children = (
 				31DB864F288F789E00E10C45 /* SwiftClassDemo */,
 				31DB864E288F789E00E10C45 /* Products */,
+				894CD57F2A3493356F9A4CCB /* Pods */,
+				0245B29EAD4CD8A59175A7F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +140,7 @@
 		31DB864F288F789E00E10C45 /* SwiftClassDemo */ = {
 			isa = PBXGroup;
 			children = (
+				31DB8668288F843E00E10C45 /* Class */,
 				31DB8650288F789E00E10C45 /* AppDelegate.swift */,
 				31DB8652288F789E00E10C45 /* SceneDelegate.swift */,
 				31DB8654288F789E00E10C45 /* ViewController.swift */,
@@ -63,8 +148,93 @@
 				31DB8659288F78A000E10C45 /* Assets.xcassets */,
 				31DB865B288F78A000E10C45 /* LaunchScreen.storyboard */,
 				31DB865E288F78A000E10C45 /* Info.plist */,
+				31DB8673288F95FC00E10C45 /* FAN_CommenHeader.swift */,
 			);
 			path = SwiftClassDemo;
+			sourceTree = "<group>";
+		};
+		31DB8668288F843E00E10C45 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				31DB866B288F84B500E10C45 /* PublicTools */,
+				31DB866A288F849E00E10C45 /* PublicClass */,
+				31DB8669288F848800E10C45 /* FuncClass */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		31DB8669288F848800E10C45 /* FuncClass */ = {
+			isa = PBXGroup;
+			children = (
+				31278E79289283D400BAC95F /* Sudoku */,
+				31DB866C288F853100E10C45 /* Home */,
+			);
+			path = FuncClass;
+			sourceTree = "<group>";
+		};
+		31DB866A288F849E00E10C45 /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				31DB8670288F8A5F00E10C45 /* Controller */,
+			);
+			path = PublicClass;
+			sourceTree = "<group>";
+		};
+		31DB866B288F84B500E10C45 /* PublicTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PublicTools;
+			sourceTree = "<group>";
+		};
+		31DB866C288F853100E10C45 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				31278E932897D1D000BAC95F /* Tools */,
+				31278E842893DFF600BAC95F /* Protocol */,
+				31DB866E288F857300E10C45 /* View */,
+				31DB866D288F856100E10C45 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		31DB866D288F856100E10C45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31DB8675288F977600E10C45 /* FAN_HomeViewController.swift */,
+				31278E8F2897C14700BAC95F /* FAN_HomeListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31DB866E288F857300E10C45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31278E802893CB7100BAC95F /* FAN_HomeFirstCell.swift */,
+				31278E8B2897646900BAC95F /* FAN_HomeSecoundCell.swift */,
+				31278E8D2897B7A000BAC95F /* FAN_HomeThirdCell.swift */,
+				31278E872895F42800BAC95F /* FAN_HomeBackColorView.swift */,
+				31278E892895F80400BAC95F /* FAN_HomeNavView.swift */,
+				3116F51128992125005E43D3 /* FAN_HomeSuspensionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31DB8670288F8A5F00E10C45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31DB8671288F8AC800E10C45 /* FAN_ProjectTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		894CD57F2A3493356F9A4CCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18154EE3F4149BA71E31ABCC /* Pods-SwiftClassDemo.debug.xcconfig */,
+				BACEAB1514699FD6082753F4 /* Pods-SwiftClassDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31DB8661288F78A000E10C45 /* Build configuration list for PBXNativeTarget "SwiftClassDemo" */;
 			buildPhases = (
+				FC91CB411A9F36790769875B /* [CP] Check Pods Manifest.lock */,
 				31DB8649288F789E00E10C45 /* Sources */,
 				31DB864A288F789E00E10C45 /* Frameworks */,
 				31DB864B288F789E00E10C45 /* Resources */,
+				4B9FA53FC2645DF73452709E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +305,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B9FA53FC2645DF73452709E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftClassDemo/Pods-SwiftClassDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftClassDemo/Pods-SwiftClassDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftClassDemo/Pods-SwiftClassDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC91CB411A9F36790769875B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftClassDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31DB8649288F789E00E10C45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31278E812893CB7100BAC95F /* FAN_HomeFirstCell.swift in Sources */,
+				31278E8C2897646A00BAC95F /* FAN_HomeSecoundCell.swift in Sources */,
+				31DB8674288F95FC00E10C45 /* FAN_CommenHeader.swift in Sources */,
+				31278E7F2892845D00BAC95F /* FAN_SudokuView.swift in Sources */,
+				31278E8E2897B7A000BAC95F /* FAN_HomeThirdCell.swift in Sources */,
+				3116F51228992125005E43D3 /* FAN_HomeSuspensionView.swift in Sources */,
 				31DB8655288F789E00E10C45 /* ViewController.swift in Sources */,
+				31278E952897D22800BAC95F /* FAN_ScollViewDelegateTools.swift in Sources */,
+				31278E862893E04500BAC95F /* HomeProtocol.swift in Sources */,
+				31278E8A2895F80400BAC95F /* FAN_HomeNavView.swift in Sources */,
 				31DB8651288F789E00E10C45 /* AppDelegate.swift in Sources */,
+				31278E902897C14700BAC95F /* FAN_HomeListViewController.swift in Sources */,
+				31278E882895F42800BAC95F /* FAN_HomeBackColorView.swift in Sources */,
+				31DB8676288F977600E10C45 /* FAN_HomeViewController.swift in Sources */,
+				31DB8672288F8AC800E10C45 /* FAN_ProjectTabBarController.swift in Sources */,
+				31278E7C2892842600BAC95F /* FAN_SudokuViewController.swift in Sources */,
 				31DB8653288F789E00E10C45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +510,7 @@
 		};
 		31DB8662288F78A000E10C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18154EE3F4149BA71E31ABCC /* Pods-SwiftClassDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +521,6 @@
 				INFOPLIST_FILE = SwiftClassDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -311,6 +539,7 @@
 		};
 		31DB8663288F78A000E10C45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACEAB1514699FD6082753F4 /* Pods-SwiftClassDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,7 +550,6 @@
 				INFOPLIST_FILE = SwiftClassDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
