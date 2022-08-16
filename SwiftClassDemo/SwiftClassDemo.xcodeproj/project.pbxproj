@@ -18,6 +18,15 @@
 		31278E8E2897B7A000BAC95F /* FAN_HomeThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E8D2897B7A000BAC95F /* FAN_HomeThirdCell.swift */; };
 		31278E902897C14700BAC95F /* FAN_HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E8F2897C14700BAC95F /* FAN_HomeListViewController.swift */; };
 		31278E952897D22800BAC95F /* FAN_ScollViewDelegateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E942897D22800BAC95F /* FAN_ScollViewDelegateTools.swift */; };
+		3131B65B289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131B65A289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift */; };
+		3131B65E289B8DF7003B1410 /* FAN_PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131B65D289B8DF7003B1410 /* FAN_PersonModel.swift */; };
+		315DB3DD289F49120061B779 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 315DB3DF289F49120061B779 /* Localizable.strings */; };
+		315DB3E2289F4AB70061B779 /* FAN_LocalizableTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DB3E1289F4AB70061B779 /* FAN_LocalizableTestViewController.swift */; };
+		3168C4E428A5FC9100957E76 /* FAN_ GangedTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4E328A5FC9100957E76 /* FAN_ GangedTitleView.swift */; };
+		3168C4E628A5FCCB00957E76 /* FAN_GangedContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4E528A5FCCB00957E76 /* FAN_GangedContainerView.swift */; };
+		3168C4E828A886F200957E76 /* FAN_MoreScrollviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4E728A886F200957E76 /* FAN_MoreScrollviewCell.swift */; };
+		3168C4EE28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4ED28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift */; };
+		31A1798128A5C04A0010BB70 /* FAN_MoreNaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1798028A5C04A0010BB70 /* FAN_MoreNaView.swift */; };
 		31DB8651288F789E00E10C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8650288F789E00E10C45 /* AppDelegate.swift */; };
 		31DB8653288F789E00E10C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8652288F789E00E10C45 /* SceneDelegate.swift */; };
 		31DB8655288F789E00E10C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8654288F789E00E10C45 /* ViewController.swift */; };
@@ -27,6 +36,8 @@
 		31DB8672288F8AC800E10C45 /* FAN_ProjectTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8671288F8AC800E10C45 /* FAN_ProjectTabBarController.swift */; };
 		31DB8674288F95FC00E10C45 /* FAN_CommenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8673288F95FC00E10C45 /* FAN_CommenHeader.swift */; };
 		31DB8676288F977600E10C45 /* FAN_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8675288F977600E10C45 /* FAN_HomeViewController.swift */; };
+		31E843AD28A30E5E002E4850 /* FAN_AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E843AC28A30E5E002E4850 /* FAN_AllViewController.swift */; };
+		31E843B128A323C2002E4850 /* FAN_MoreScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E843B028A323C2002E4850 /* FAN_MoreScrollViewController.swift */; };
 		678467B2D9AB64D832A2A5A5 /* Pods_SwiftClassDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60701DBDEBE90799C06A569D /* Pods_SwiftClassDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +54,18 @@
 		31278E8D2897B7A000BAC95F /* FAN_HomeThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeThirdCell.swift; sourceTree = "<group>"; };
 		31278E8F2897C14700BAC95F /* FAN_HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeListViewController.swift; sourceTree = "<group>"; };
 		31278E942897D22800BAC95F /* FAN_ScollViewDelegateTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_ScollViewDelegateTools.swift; sourceTree = "<group>"; };
+		3131B65A289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_DictionaryModelViewController.swift; sourceTree = "<group>"; };
+		3131B65D289B8DF7003B1410 /* FAN_PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_PersonModel.swift; sourceTree = "<group>"; };
+		315DB3D9289F48910061B779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		315DB3DA289F48910061B779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		315DB3DE289F49120061B779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		315DB3E0289F491C0061B779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		315DB3E1289F4AB70061B779 /* FAN_LocalizableTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_LocalizableTestViewController.swift; sourceTree = "<group>"; };
+		3168C4E328A5FC9100957E76 /* FAN_ GangedTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FAN_ GangedTitleView.swift"; sourceTree = "<group>"; };
+		3168C4E528A5FCCB00957E76 /* FAN_GangedContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_GangedContainerView.swift; sourceTree = "<group>"; };
+		3168C4E728A886F200957E76 /* FAN_MoreScrollviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_MoreScrollviewCell.swift; sourceTree = "<group>"; };
+		3168C4ED28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_WaterfallFlowViewController.swift; sourceTree = "<group>"; };
+		31A1798028A5C04A0010BB70 /* FAN_MoreNaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_MoreNaView.swift; sourceTree = "<group>"; };
 		31DB864D288F789E00E10C45 /* SwiftClassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftClassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DB8650288F789E00E10C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31DB8652288F789E00E10C45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +77,8 @@
 		31DB8671288F8AC800E10C45 /* FAN_ProjectTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_ProjectTabBarController.swift; sourceTree = "<group>"; };
 		31DB8673288F95FC00E10C45 /* FAN_CommenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_CommenHeader.swift; sourceTree = "<group>"; };
 		31DB8675288F977600E10C45 /* FAN_HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_HomeViewController.swift; sourceTree = "<group>"; };
+		31E843AC28A30E5E002E4850 /* FAN_AllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAN_AllViewController.swift; sourceTree = "<group>"; };
+		31E843B028A323C2002E4850 /* FAN_MoreScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_MoreScrollViewController.swift; sourceTree = "<group>"; };
 		60701DBDEBE90799C06A569D /* Pods_SwiftClassDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftClassDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACEAB1514699FD6082753F4 /* Pods-SwiftClassDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftClassDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftClassDemo/Pods-SwiftClassDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +144,75 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		3131B658289B8D20003B1410 /* Dictionary_Model */ = {
+			isa = PBXGroup;
+			children = (
+				3131B65C289B8DD4003B1410 /* Model */,
+				3131B659289B8D4F003B1410 /* Controller */,
+			);
+			path = Dictionary_Model;
+			sourceTree = "<group>";
+		};
+		3131B659289B8D4F003B1410 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3131B65A289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3131B65C289B8DD4003B1410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3131B65D289B8DF7003B1410 /* FAN_PersonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		315DB3D7289F46EA0061B779 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				315DB3D8289F470F0061B779 /* Controller */,
+				315DB3DF289F49120061B779 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		315DB3D8289F470F0061B779 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				315DB3E1289F4AB70061B779 /* FAN_LocalizableTestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3168C4EB28A9F76600957E76 /* WaterfallFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3168C4EC28A9F7A200957E76 /* Controller */,
+			);
+			path = WaterfallFlow;
+			sourceTree = "<group>";
+		};
+		3168C4EC28A9F7A200957E76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3168C4ED28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31A1797F28A5BFFD0010BB70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31A1798028A5C04A0010BB70 /* FAN_MoreNaView.swift */,
+				3168C4E328A5FC9100957E76 /* FAN_ GangedTitleView.swift */,
+				3168C4E528A5FCCB00957E76 /* FAN_GangedContainerView.swift */,
+				3168C4E728A886F200957E76 /* FAN_MoreScrollviewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		31DB8644288F789E00E10C45 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +260,9 @@
 		31DB8669288F848800E10C45 /* FuncClass */ = {
 			isa = PBXGroup;
 			children = (
+				31E843AA28A30E5E002E4850 /* All */,
+				315DB3D7289F46EA0061B779 /* Localizable */,
+				3131B658289B8D20003B1410 /* Dictionary_Model */,
 				31278E79289283D400BAC95F /* Sudoku */,
 				31DB866C288F853100E10C45 /* Home */,
 			);
@@ -228,6 +325,41 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		31E843AA28A30E5E002E4850 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				3168C4EB28A9F76600957E76 /* WaterfallFlow */,
+				31E843AE28A32362002E4850 /* MoreScrollView */,
+				31E843AB28A30E5E002E4850 /* Controller */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		31E843AB28A30E5E002E4850 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31E843AC28A30E5E002E4850 /* FAN_AllViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31E843AE28A32362002E4850 /* MoreScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				31A1797F28A5BFFD0010BB70 /* View */,
+				31E843AF28A3238E002E4850 /* Controller */,
+			);
+			path = MoreScrollView;
+			sourceTree = "<group>";
+		};
+		31E843AF28A3238E002E4850 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31E843B028A323C2002E4850 /* FAN_MoreScrollViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		894CD57F2A3493356F9A4CCB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +413,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 31DB8644288F789E00E10C45;
 			productRefGroup = 31DB864E288F789E00E10C45 /* Products */;
@@ -298,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31DB865D288F78A000E10C45 /* LaunchScreen.storyboard in Resources */,
+				315DB3DD289F49120061B779 /* Localizable.strings in Resources */,
 				31DB865A288F78A000E10C45 /* Assets.xcassets in Resources */,
 				31DB8658288F789E00E10C45 /* Main.storyboard in Resources */,
 			);
@@ -352,33 +486,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3131B65B289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift in Sources */,
+				31A1798128A5C04A0010BB70 /* FAN_MoreNaView.swift in Sources */,
+				3168C4EE28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift in Sources */,
 				31278E812893CB7100BAC95F /* FAN_HomeFirstCell.swift in Sources */,
 				31278E8C2897646A00BAC95F /* FAN_HomeSecoundCell.swift in Sources */,
 				31DB8674288F95FC00E10C45 /* FAN_CommenHeader.swift in Sources */,
+				3131B65E289B8DF7003B1410 /* FAN_PersonModel.swift in Sources */,
+				3168C4E828A886F200957E76 /* FAN_MoreScrollviewCell.swift in Sources */,
 				31278E7F2892845D00BAC95F /* FAN_SudokuView.swift in Sources */,
 				31278E8E2897B7A000BAC95F /* FAN_HomeThirdCell.swift in Sources */,
 				3116F51228992125005E43D3 /* FAN_HomeSuspensionView.swift in Sources */,
 				31DB8655288F789E00E10C45 /* ViewController.swift in Sources */,
 				31278E952897D22800BAC95F /* FAN_ScollViewDelegateTools.swift in Sources */,
+				3168C4E628A5FCCB00957E76 /* FAN_GangedContainerView.swift in Sources */,
 				31278E862893E04500BAC95F /* HomeProtocol.swift in Sources */,
 				31278E8A2895F80400BAC95F /* FAN_HomeNavView.swift in Sources */,
 				31DB8651288F789E00E10C45 /* AppDelegate.swift in Sources */,
 				31278E902897C14700BAC95F /* FAN_HomeListViewController.swift in Sources */,
+				31E843B128A323C2002E4850 /* FAN_MoreScrollViewController.swift in Sources */,
+				31E843AD28A30E5E002E4850 /* FAN_AllViewController.swift in Sources */,
 				31278E882895F42800BAC95F /* FAN_HomeBackColorView.swift in Sources */,
 				31DB8676288F977600E10C45 /* FAN_HomeViewController.swift in Sources */,
 				31DB8672288F8AC800E10C45 /* FAN_ProjectTabBarController.swift in Sources */,
+				3168C4E428A5FC9100957E76 /* FAN_ GangedTitleView.swift in Sources */,
 				31278E7C2892842600BAC95F /* FAN_SudokuViewController.swift in Sources */,
 				31DB8653288F789E00E10C45 /* SceneDelegate.swift in Sources */,
+				315DB3E2289F4AB70061B779 /* FAN_LocalizableTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		315DB3DF289F49120061B779 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315DB3DE289F49120061B779 /* zh-Hans */,
+				315DB3E0289F491C0061B779 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		31DB8656288F789E00E10C45 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				31DB8657288F789E00E10C45 /* Base */,
+				315DB3D9289F48910061B779 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -387,6 +541,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				31DB865C288F78A000E10C45 /* Base */,
+				315DB3DA289F48910061B779 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -398,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -458,6 +614,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

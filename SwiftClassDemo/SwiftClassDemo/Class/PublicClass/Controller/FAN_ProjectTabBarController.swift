@@ -14,10 +14,10 @@ class FAN_ProjectTabBarController: FAN_BaseTabBarController {
         
         self.tabBar.backgroundColor = UIColor.white
         
-        ["Home","All","Addcart","Me"].forEach { (temp) in
+        ["Home","All"].forEach { (temp) in
             
             // 这个只是用来临时处理的
-            let name = "Home";
+            let name = temp;
             let str = "FAN_\(name)ViewController";
             let childVc = createChildController(title: name, imageName: "icon_tabbar_\(name.lowercased())", controllerClassName: str);
             addChild(childVc);

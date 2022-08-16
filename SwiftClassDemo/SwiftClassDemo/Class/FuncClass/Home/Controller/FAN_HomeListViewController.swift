@@ -31,7 +31,7 @@ class FAN_HomeListViewController: FAN_BaseTableViewController ,JXSegmentedListCo
     override func initData() {
         
         // 注册cell
-        tableview(registerCellArray: ["FAN_HomeFirstCell"], cellReuseIdentifier: nil)
+        tableView(registerCellArray: ["FAN_HomeFirstCell"], cellReuseIdentifier: nil)
         
     }
 

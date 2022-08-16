@@ -81,7 +81,7 @@ class FAN_HomeViewController: FAN_BaseTableViewController {
     override func initData() {
         
         // 注册cell
-        tableview(registerCellArray: ["FAN_HomeFirstCell","FAN_HomeSecoundCell","FAN_HomeThirdCell"], cellReuseIdentifier: nil)
+        tableView(registerCellArray: ["FAN_HomeFirstCell","FAN_HomeSecoundCell","FAN_HomeThirdCell"], cellReuseIdentifier: nil)
         
     }
 
