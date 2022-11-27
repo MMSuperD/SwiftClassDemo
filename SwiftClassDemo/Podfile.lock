@@ -1,6 +1,7 @@
 PODS:
-  - Alamofire (5.6.2)
-  - FANBaseConfig (0.1.1):
+  - Alamofire (5.6.4)
+  - FANBaseConfig (0.1.3):
+    - Alamofire (>= 5.6.2)
     - SnapKit (>= 5.0.0)
   - JXSegmentedView (1.3.0)
   - SnapKit (5.6.0)
@@ -14,13 +15,14 @@ SPEC REPOS:
   "git@github.com:MMSuperD/FANSpec.git":
     - FANBaseConfig
   https://gitee.com/mirrors/CocoaPods-Specs.git:
-    - Alamofire
     - JXSegmentedView
     - SnapKit
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
 
 SPEC CHECKSUMS:
-  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  FANBaseConfig: 93b9b7ae8c0205830a2df6d9158d9b8b2a064349
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  FANBaseConfig: facff6e36e2f82dd78ab2f9a5561cb59e2d9bfdf
   JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 

@@ -31,6 +31,11 @@ class FAN_AllViewController: FAN_BaseTableViewController {
             "content":"瀑布流",
             "action": "FAN_WaterfallFlowViewController"
         ],
+        [
+            "className":"FANBaseConfig.FAN_BaseTableViewCell",
+            "content":"响应式链条传值使用",
+            "action": "FAN_ResponderTestController"
+        ],
     ]
     
     

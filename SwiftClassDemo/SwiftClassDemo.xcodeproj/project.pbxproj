@@ -26,6 +26,9 @@
 		3168C4E628A5FCCB00957E76 /* FAN_GangedContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4E528A5FCCB00957E76 /* FAN_GangedContainerView.swift */; };
 		3168C4E828A886F200957E76 /* FAN_MoreScrollviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4E728A886F200957E76 /* FAN_MoreScrollviewCell.swift */; };
 		3168C4EE28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4ED28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift */; };
+		318856052931B944007E36D5 /* FAN_ResponderTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318856042931B944007E36D5 /* FAN_ResponderTestController.swift */; };
+		318856082931B9BF007E36D5 /* UIResponder+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318856072931B9BF007E36D5 /* UIResponder+extension.swift */; };
+		3188560B2931BD55007E36D5 /* FAN_TestResponderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3188560A2931BD55007E36D5 /* FAN_TestResponderView.swift */; };
 		31A1798128A5C04A0010BB70 /* FAN_MoreNaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1798028A5C04A0010BB70 /* FAN_MoreNaView.swift */; };
 		31DB8651288F789E00E10C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8650288F789E00E10C45 /* AppDelegate.swift */; };
 		31DB8653288F789E00E10C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DB8652288F789E00E10C45 /* SceneDelegate.swift */; };
@@ -65,6 +68,9 @@
 		3168C4E528A5FCCB00957E76 /* FAN_GangedContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_GangedContainerView.swift; sourceTree = "<group>"; };
 		3168C4E728A886F200957E76 /* FAN_MoreScrollviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_MoreScrollviewCell.swift; sourceTree = "<group>"; };
 		3168C4ED28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_WaterfallFlowViewController.swift; sourceTree = "<group>"; };
+		318856042931B944007E36D5 /* FAN_ResponderTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_ResponderTestController.swift; sourceTree = "<group>"; };
+		318856072931B9BF007E36D5 /* UIResponder+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+extension.swift"; sourceTree = "<group>"; };
+		3188560A2931BD55007E36D5 /* FAN_TestResponderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_TestResponderView.swift; sourceTree = "<group>"; };
 		31A1798028A5C04A0010BB70 /* FAN_MoreNaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_MoreNaView.swift; sourceTree = "<group>"; };
 		31DB864D288F789E00E10C45 /* SwiftClassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftClassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DB8650288F789E00E10C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +208,40 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		318856022931B8A9007E36D5 /* ResponderUse */ = {
+			isa = PBXGroup;
+			children = (
+				318856092931BD2C007E36D5 /* View */,
+				318856062931B999007E36D5 /* Tools */,
+				318856032931B8F0007E36D5 /* Controller */,
+			);
+			path = ResponderUse;
+			sourceTree = "<group>";
+		};
+		318856032931B8F0007E36D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				318856042931B944007E36D5 /* FAN_ResponderTestController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		318856062931B999007E36D5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				318856072931B9BF007E36D5 /* UIResponder+extension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		318856092931BD2C007E36D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3188560A2931BD55007E36D5 /* FAN_TestResponderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		31A1797F28A5BFFD0010BB70 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +368,7 @@
 		31E843AA28A30E5E002E4850 /* All */ = {
 			isa = PBXGroup;
 			children = (
+				318856022931B8A9007E36D5 /* ResponderUse */,
 				3168C4EB28A9F76600957E76 /* WaterfallFlow */,
 				31E843AE28A32362002E4850 /* MoreScrollView */,
 				31E843AB28A30E5E002E4850 /* Controller */,
@@ -487,7 +528,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3131B65B289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift in Sources */,
+				318856082931B9BF007E36D5 /* UIResponder+extension.swift in Sources */,
 				31A1798128A5C04A0010BB70 /* FAN_MoreNaView.swift in Sources */,
+				318856052931B944007E36D5 /* FAN_ResponderTestController.swift in Sources */,
 				3168C4EE28A9F7D000957E76 /* FAN_WaterfallFlowViewController.swift in Sources */,
 				31278E812893CB7100BAC95F /* FAN_HomeFirstCell.swift in Sources */,
 				31278E8C2897646A00BAC95F /* FAN_HomeSecoundCell.swift in Sources */,
@@ -499,6 +542,7 @@
 				3116F51228992125005E43D3 /* FAN_HomeSuspensionView.swift in Sources */,
 				31DB8655288F789E00E10C45 /* ViewController.swift in Sources */,
 				31278E952897D22800BAC95F /* FAN_ScollViewDelegateTools.swift in Sources */,
+				3188560B2931BD55007E36D5 /* FAN_TestResponderView.swift in Sources */,
 				3168C4E628A5FCCB00957E76 /* FAN_GangedContainerView.swift in Sources */,
 				31278E862893E04500BAC95F /* HomeProtocol.swift in Sources */,
 				31278E8A2895F80400BAC95F /* FAN_HomeNavView.swift in Sources */,
