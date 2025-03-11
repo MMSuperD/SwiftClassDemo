@@ -10,7 +10,8 @@ target 'SwiftClassDemo' do
   use_frameworks!
 
   # Pods for SwiftClassDemo
-  pod 'FANBaseConfig'
+#  pod 'FANBaseConfig'
+  pod 'FANBaseConfig',:git => 'git@github.com:MMSuperD/FANBaseConfig.git'
   #pod 'FANBaseConfig',:path => '/Users/fan/Desktop/MyStudy/MyGithub/FANBaseConfig'
   
   pod 'JXSegmentedView'

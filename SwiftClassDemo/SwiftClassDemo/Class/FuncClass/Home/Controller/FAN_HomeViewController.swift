@@ -140,7 +140,7 @@ class FAN_HomeViewController: FAN_BaseTableViewController {
        
     }
     
-    func loadData() -> Void {
+    override func loadData() -> Void {
         
         let url = "http://ad.bbdport.com/tz.php?id=17534423"
         

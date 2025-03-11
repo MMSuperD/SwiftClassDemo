@@ -20,6 +20,11 @@
 		31278E952897D22800BAC95F /* FAN_ScollViewDelegateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31278E942897D22800BAC95F /* FAN_ScollViewDelegateTools.swift */; };
 		3131B65B289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131B65A289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift */; };
 		3131B65E289B8DF7003B1410 /* FAN_PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3131B65D289B8DF7003B1410 /* FAN_PersonModel.swift */; };
+		31405530290E6836005BCAE6 /* FAN_CollectionPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3140552F290E6836005BCAE6 /* FAN_CollectionPracticeViewController.swift */; };
+		31405533290E68FA005BCAE6 /* FANCustomeFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31405532290E68FA005BCAE6 /* FANCustomeFlowLayout.swift */; };
+		31405537290E91AF005BCAE6 /* FAN_MixTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31405536290E91AF005BCAE6 /* FAN_MixTableViewController.swift */; };
+		31405539290E9514005BCAE6 /* FAN_FlowWaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31405538290E9514005BCAE6 /* FAN_FlowWaterViewController.swift */; };
+		3140553C290E9591005BCAE6 /* FANMixTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3140553B290E9591005BCAE6 /* FANMixTableViewCell.swift */; };
 		315DB3DD289F49120061B779 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 315DB3DF289F49120061B779 /* Localizable.strings */; };
 		315DB3E2289F4AB70061B779 /* FAN_LocalizableTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DB3E1289F4AB70061B779 /* FAN_LocalizableTestViewController.swift */; };
 		3168C4E428A5FC9100957E76 /* FAN_ GangedTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3168C4E328A5FC9100957E76 /* FAN_ GangedTitleView.swift */; };
@@ -56,6 +61,11 @@
 		31278E942897D22800BAC95F /* FAN_ScollViewDelegateTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_ScollViewDelegateTools.swift; sourceTree = "<group>"; };
 		3131B65A289B8DAF003B1410 /* FAN_DictionaryModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_DictionaryModelViewController.swift; sourceTree = "<group>"; };
 		3131B65D289B8DF7003B1410 /* FAN_PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_PersonModel.swift; sourceTree = "<group>"; };
+		3140552F290E6836005BCAE6 /* FAN_CollectionPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_CollectionPracticeViewController.swift; sourceTree = "<group>"; };
+		31405532290E68FA005BCAE6 /* FANCustomeFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FANCustomeFlowLayout.swift; sourceTree = "<group>"; };
+		31405536290E91AF005BCAE6 /* FAN_MixTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_MixTableViewController.swift; sourceTree = "<group>"; };
+		31405538290E9514005BCAE6 /* FAN_FlowWaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAN_FlowWaterViewController.swift; sourceTree = "<group>"; };
+		3140553B290E9591005BCAE6 /* FANMixTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FANMixTableViewCell.swift; sourceTree = "<group>"; };
 		315DB3D9289F48910061B779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		315DB3DA289F48910061B779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		315DB3DE289F49120061B779 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -167,6 +177,57 @@
 				3131B65D289B8DF7003B1410 /* FAN_PersonModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3140552D290E67A8005BCAE6 /* CollectionViewPractice */ = {
+			isa = PBXGroup;
+			children = (
+				31405531290E68CD005BCAE6 /* View */,
+				3140552E290E67D9005BCAE6 /* Controller */,
+			);
+			path = CollectionViewPractice;
+			sourceTree = "<group>";
+		};
+		3140552E290E67D9005BCAE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3140552F290E6836005BCAE6 /* FAN_CollectionPracticeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31405531290E68CD005BCAE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31405532290E68FA005BCAE6 /* FANCustomeFlowLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31405534290E911F005BCAE6 /* MixScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3140553A290E9574005BCAE6 /* View */,
+				31405535290E9168005BCAE6 /* Controller */,
+			);
+			path = MixScrollView;
+			sourceTree = "<group>";
+		};
+		31405535290E9168005BCAE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31405536290E91AF005BCAE6 /* FAN_MixTableViewController.swift */,
+				31405538290E9514005BCAE6 /* FAN_FlowWaterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3140553A290E9574005BCAE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3140553B290E9591005BCAE6 /* FANMixTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		315DB3D7289F46EA0061B779 /* Localizable */ = {
@@ -328,6 +389,8 @@
 		31E843AA28A30E5E002E4850 /* All */ = {
 			isa = PBXGroup;
 			children = (
+				31405534290E911F005BCAE6 /* MixScrollView */,
+				3140552D290E67A8005BCAE6 /* CollectionViewPractice */,
 				3168C4EB28A9F76600957E76 /* WaterfallFlow */,
 				31E843AE28A32362002E4850 /* MoreScrollView */,
 				31E843AB28A30E5E002E4850 /* Controller */,
@@ -502,14 +565,19 @@
 				3168C4E628A5FCCB00957E76 /* FAN_GangedContainerView.swift in Sources */,
 				31278E862893E04500BAC95F /* HomeProtocol.swift in Sources */,
 				31278E8A2895F80400BAC95F /* FAN_HomeNavView.swift in Sources */,
+				31405533290E68FA005BCAE6 /* FANCustomeFlowLayout.swift in Sources */,
 				31DB8651288F789E00E10C45 /* AppDelegate.swift in Sources */,
+				31405537290E91AF005BCAE6 /* FAN_MixTableViewController.swift in Sources */,
 				31278E902897C14700BAC95F /* FAN_HomeListViewController.swift in Sources */,
 				31E843B128A323C2002E4850 /* FAN_MoreScrollViewController.swift in Sources */,
+				31405530290E6836005BCAE6 /* FAN_CollectionPracticeViewController.swift in Sources */,
 				31E843AD28A30E5E002E4850 /* FAN_AllViewController.swift in Sources */,
 				31278E882895F42800BAC95F /* FAN_HomeBackColorView.swift in Sources */,
 				31DB8676288F977600E10C45 /* FAN_HomeViewController.swift in Sources */,
 				31DB8672288F8AC800E10C45 /* FAN_ProjectTabBarController.swift in Sources */,
+				3140553C290E9591005BCAE6 /* FANMixTableViewCell.swift in Sources */,
 				3168C4E428A5FC9100957E76 /* FAN_ GangedTitleView.swift in Sources */,
+				31405539290E9514005BCAE6 /* FAN_FlowWaterViewController.swift in Sources */,
 				31278E7C2892842600BAC95F /* FAN_SudokuViewController.swift in Sources */,
 				31DB8653288F789E00E10C45 /* SceneDelegate.swift in Sources */,
 				315DB3E2289F4AB70061B779 /* FAN_LocalizableTestViewController.swift in Sources */,

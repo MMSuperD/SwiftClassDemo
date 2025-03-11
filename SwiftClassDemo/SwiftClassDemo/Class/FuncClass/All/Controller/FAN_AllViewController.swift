@@ -31,6 +31,16 @@ class FAN_AllViewController: FAN_BaseTableViewController {
             "content":"瀑布流",
             "action": "FAN_WaterfallFlowViewController"
         ],
+        [
+            "className":"FANBaseConfig.FAN_BaseTableViewCell",
+            "content":"CollectionView使用",
+            "action": "FAN_CollectionPracticeViewController"
+        ],
+        [
+            "className":"FANBaseConfig.FAN_BaseTableViewCell",
+            "content":"MixScrollView使用",
+            "action": "FAN_MixTableViewController"
+        ],
     ]
     
     

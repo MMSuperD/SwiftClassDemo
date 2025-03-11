@@ -268,11 +268,7 @@ class FAN_WaterfallFlowViewController: FAN_BaseViewController,UICollectionViewDe
 
 
 extension FAN_WaterfallFlowViewController {
- 
-    
-    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        
         return 1
     }
     
