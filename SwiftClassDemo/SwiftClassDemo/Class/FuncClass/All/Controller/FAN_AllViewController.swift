@@ -33,13 +33,8 @@ class FAN_AllViewController: FAN_BaseTableViewController {
         ],
         [
             "className":"FANBaseConfig.FAN_BaseTableViewCell",
-            "content":"CollectionView使用",
-            "action": "FAN_CollectionPracticeViewController"
-        ],
-        [
-            "className":"FANBaseConfig.FAN_BaseTableViewCell",
-            "content":"MixScrollView使用",
-            "action": "FAN_MixTableViewController"
+            "content":"响应式链条传值使用",
+            "action": "FAN_ResponderTestController"
         ],
     ]
     
